@@ -1,8 +1,8 @@
-# myPackage/R/hello.R
 #' Say hello
 #'
-#' A simple greeting function.
+#' @param name A character name
+#' @return A greeting
 #' @export
-hello <- function() {
-  print("Hello, world!")
+hello <- function(name) {
+  paste("Hello,", name)
 }

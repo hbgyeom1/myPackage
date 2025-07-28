@@ -1,4 +1,13 @@
 url: https://hbgyeom1.github.io/myPackage/
 template:
   bootstrap: 5
-
+navbar:
+  structure:
+    left:
+    - home
+    - reference
+    - hello
+  components:
+    hello:
+      text: Hello
+      href: hello.html
