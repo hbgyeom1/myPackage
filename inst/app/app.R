@@ -1,6 +1,6 @@
 library(shiny)
 
-source(file.path(system.file("app/source", package = "myPackage"), "hello.R"))
+source("source/hello.R")
 
 ui <- fluidPage(
   textInput("name", "Name:"),
